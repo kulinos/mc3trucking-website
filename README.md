@@ -9,7 +9,7 @@ A responsive React and TypeScript website built with Vite. The company name and 
 - `src/App.tsx` assembles the home, about, services, fleet, and contact sections.
 - `src/components/Header.tsx` contains the site navigation and mobile menu. Its `menuOpen` state controls whether the small-screen navigation is shown.
 - `src/components/SectionHeading.tsx` is a reusable heading that accepts `eyebrow`, `title`, and optional `copy` props.
-- `src/components/ContactForm.tsx` validates required fields and holds success or error feedback in React state. It is a front-end demo and does not transmit or save submissions.
+- `src/components/ContactForm.tsx` validates required fields and holds success or error feedback in React state. It opens the visitor email app with an inquiry addressed to sales@mc3trucking.com. The website itself does not send or store submissions.
 - `src/App.css` contains the component and responsive layout styles.
 - `src/index.css` sets global typography and base styles.
 - `src/assets/mc3-logo.png` is the supplied MC3 logo.
